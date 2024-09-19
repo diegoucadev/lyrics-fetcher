@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: inherit; /* This allow to change easy the box-sizing in cascade */
+}
+
+/* Set the desired default value for our page, all tags will used the same value*/
+:root {
+  box-sizing: border-box;
+}
+
+#main {
+    background-image: linear-gradient(45deg, #F197FF, #3EDFD9, #5BFF90);
+    height: 100%;
+    height: 100vh;
+}
+
+#main .display {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.display h1 {
+    font-family: 'Fascinate Inline';
+    font-size: 6em;
+}
+
+.search {
+    width: 500px;
+    height: 40px; 
+    padding: 0 15px; 
+    border-radius: 20px; 
+    border: none;
+    box-sizing: border-box; 
+    font-size: 16px; /
+}
+
+#search-song button {
+    padding: 10px;
+    width: 100px;
+    border: none;
+    margin-left: 20px;
+    border-radius: 10px;
+}
